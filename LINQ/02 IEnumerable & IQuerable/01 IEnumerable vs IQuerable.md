@@ -68,7 +68,7 @@ Id: 1 Name: Ramesh
 # `IQuerable`  
 IQuerable is an interface available in `System.Linq` namespace  
 IQuerable is child of IEnumerable.  
-IQuerable has a property `Provide` which is of type `IQuerableProvider` interface, and it is used in LinqProviders.
+IQuerable has a property `Provider` which is of type `IQuerableProvider` interface, and it is used in LinqProviders.
 IQuerable is best choice for other data provider (LINQ to Entities, LINQ to XML... etc).
 Example
 ```C#
