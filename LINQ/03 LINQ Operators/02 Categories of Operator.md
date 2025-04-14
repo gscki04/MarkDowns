@@ -1,0 +1,15 @@
+Types of Operators:  
+- Sorting Data
+- Set Operations
+- Filtering Data
+- Quantifier Operations
+- Projection Operations
+- Partitioning Data
+- Grouping Data
+- Equality Operations
+- Element Operations
+- Converting Data Types
+- Concatenation Operations
+- Aggregation Operations
+- Generation Operations
+- join Operations  
