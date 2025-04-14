@@ -126,3 +126,186 @@ another example:
 ```  
 
 3. Example of `ThenBy()`& `ThenByDescending()`  
+```C#
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace LinqProjectionDemo {
+    class Program {
+        static void Main(string[] args) {
+
+            var dsObj = new List<Employee>() {
+
+                new Employee() {
+                    Id = 3,
+                    Email = "g@gmail",
+                    LastName = "XXX",
+                    FirstName = "AAA"
+                },
+                new Employee() {
+                    Id = 1,
+                    Email = "r@rmail",
+                    LastName = "ZZZ",
+                    FirstName = "BBB"
+                },
+                new Employee() {
+                    Id = 4,
+                    Email = "v@vmail",
+                    LastName = "YYY",
+                    FirstName = "CCC"
+                },
+                new Employee() {
+                    Id = 2,
+                    Email = "s@smail",
+                    LastName = "ZZZ",
+                    FirstName = "AAA"
+                }
+            };
+
+            Console.WriteLine("using query syntax");
+            var qs = from emp in dsObj
+                     orderby emp.LastName ascending, emp.FirstName descending
+                     select emp;
+            foreach (var item in qs) {
+                Console.WriteLine($"id: {item.Id}, FirstName: {item.FirstName}, LastName: {item.LastName}, Email: {item.Email}");
+            }
+
+
+            Console.WriteLine("\nusing method syntax");
+            var ms = dsObj.OrderBy(x => x.LastName).ThenByDescending(x=>x.FirstName).ToList();
+            foreach(var item in ms) {
+                Console.WriteLine($"id: {item.Id}, FirstName: {item.FirstName}, LastName: {item.LastName}, Email: {item.Email}");
+            }
+            //Console.ReadLine();
+        }
+    
+        class Employee {
+            public int Id { get; set; }
+            public string FirstName { get; set; }
+            public string LastName { get; set; }
+            public string Email { get; set; }
+        }
+    }
+}
+```  
+#### output:
+```terminal
+using query syntax
+id: 3, FirstName: AAA, LastName: XXX, Email: g@gmail
+id: 4, FirstName: CCC, LastName: YYY, Email: v@vmail
+id: 1, FirstName: BBB, LastName: ZZZ, Email: r@rmail
+id: 2, FirstName: AAA, LastName: ZZZ, Email: s@smail
+
+using method syntax
+id: 3, FirstName: AAA, LastName: XXX, Email: g@gmail
+id: 4, FirstName: CCC, LastName: YYY, Email: v@vmail
+id: 1, FirstName: BBB, LastName: ZZZ, Email: r@rmail
+id: 2, FirstName: AAA, LastName: ZZZ, Email: s@smail
+```  
+
+4. Example of `Reverse()`:  
+```C#
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace LinqProjectionDemo {
+    class Program {
+        static void Main(string[] args) {
+
+            int[] rollNums = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+
+            Console.WriteLine("Using query syntax");
+            var qs = (from nums in rollNums
+                     select nums).Reverse(); // cannot write pure query syntax, need hybrid for that
+            foreach (var item in qs) {
+                Console.WriteLine(item);
+            }
+
+
+            Console.WriteLine("\nUsing method syntax");
+            var ms = rollNums.Reverse();
+            foreach (var item in ms) {
+                Console.WriteLine(item);
+            }
+
+            //Console.ReadLine();
+        }
+
+    }
+}
+```  
+#### output:
+```terminal
+Using query syntax
+9
+8
+7
+6
+5
+4
+3
+2
+1
+
+Using method syntax
+9
+8
+7
+6
+5
+4
+3
+2
+1
+```  
+a `Reverse()` method using `System.Collections.Generic;` will not work on not integer types.
+like this  
+```C#
+            List<string> names = new List<string>() { "Mantesh", "Anil", "Bala", "Akash", "Ranveer"};
+
+            var ms = names.Reverse();
+            foreach (var item in ms) {
+                Console.WriteLine(item);
+            }
+```  
+it will through error because `Reverse()` method using `System.Collections.Generic;` has return type of void.  
+but instead if we do this without variable  which is same method `Reverse()` it will work
+
+```C#
+            List<string> names = new List<string>() { "Mantesh", "Anil", "Bala", "Akash", "Ranveer"};
+
+            names.Reverse();
+            foreach (var item in names) {
+                Console.WriteLine(item);
+            }
+```  
+#### output:
+```terminal
+Ranveer
+Akash
+Bala
+Anil
+Mantesh
+```  
+but this modifies actual source unless you are using LINQ version.  
+which is `Enumerable.Reverse()` from `System.Linq;`
+```C#
+            List<string> names = new List<string>() { "Mantesh", "Anil", "Bala", "Akash", "Ranveer"};
+
+            var ms = names.AsEnumerable().Reverse();
+
+            foreach (var item in ms) {
+                Console.WriteLine(item);
+            }
+```  
+#### output:
+```terminal
+Ranveer
+Akash
+Bala
+Anil
+Mantesh
+```  
+now its reverse without modifing original source  

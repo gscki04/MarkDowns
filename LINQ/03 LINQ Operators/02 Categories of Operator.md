@@ -30,3 +30,5 @@ C. Sorting Operators:
 `ThenBy()`: Secondary sort in ascending order  
 `ThenByDescending()`: Secondary sort in descending order  
 `Reverse()`: Reverses the current order of a sequence  
+
+D. Quantifier Operators  
