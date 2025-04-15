@@ -8,7 +8,7 @@ like:
 - Name of countries in alphabet order  
 - Phone contact list (sort using first name)  
 
-
+Methods:  
 `OrderBy()`: Sorts elements in ascending order  
 `OrderByDescending()`: Sorts elements in descending order  
 `ThenBy()`: Secondary sort in ascending order  
