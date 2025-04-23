@@ -20,7 +20,6 @@ namespace EmployeeAdminPortal.Controllers
 
     }
 }
- 
 ```  
 this is our current controller now lets add the first method which is GET  
 ## GET method
@@ -62,7 +61,7 @@ we can consice the code block by removing a variable & passing the assigned valu
 
 
 `NOTE`: **IActionResult** is an interface in ASP.NET Core which has pre-build functionalities, like  
-- `OkResult` and OkOb`jectResult: Return HTTP 200 responses.  
+- `OkResult` and `OkObjectResult`: Return HTTP 200 responses.  
 - `NotFoundResult`: Returns an HTTP 404 response.​  
 - `BadRequestResult`: Returns an HTTP 400 response.  
 - `JsonResult`: Returns JSON-formatted data.  

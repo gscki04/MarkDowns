@@ -1,5 +1,5 @@
 Right click on Controller Folder ----> `Add` ----> `Controller` 
-`Common` ----> `API` ----> `API Contoller (Emmpty)` & give the name to contoller (here, its `EmployeesController`)  
+`Common` ----> `API` ----> `API Contoller - Emmpty` & give the name to contoller (here, its `EmployeesController`)  
 ```C#
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;

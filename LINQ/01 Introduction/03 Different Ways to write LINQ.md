@@ -56,7 +56,7 @@ namespace MyApp {
 Lambada expressions to define any condition.  
 Easy for simple query,  
 Hard for complex query. 
-this way is basically chaining of methods using dot notation (.).  
+this way is basically chaining of methods using dot notation (.)    
 syntax:  
 ```c#
 DataSource.ConditionMethod().SelectionMethod()

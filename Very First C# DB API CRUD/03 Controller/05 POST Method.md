@@ -104,6 +104,7 @@ namespace EmployeeAdminPortal.Controllers
             dbContext.employees.Add(emplopyeeEntity);
             dbContext.SaveChanges();
             return Ok(emplopyeeEntity);
+            return Created($"/api/employes/{emplopyeeEntity.Id}", emplopyeeEntity);
         }
     }
 } 

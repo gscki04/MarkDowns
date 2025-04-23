@@ -1,3 +1,5 @@
+A migration in Entity Framework Core is a way to track and apply changes to your database schema as your models evolve. Think of it as a version history for your database structure.  
+
 after  
 1. creating project  
 2. adding dependancies  
@@ -7,7 +9,7 @@ after
 next step is migration. when we do Entity-Framework-Core migration, it creates the DB schema & table according to our code & act on it.  
 
 #### Open Package Manager  
-`Menu bar` ----> `Tools` ----> `NuGet Package Manager` ----> `Package Manager Control`  
+`Menu bar` ----> `Tools` ----> `NuGet Package Manager` ----> `Package Manager Console`  
 #### staging command  
 ```terminal
 add-migration "InitialMigration"

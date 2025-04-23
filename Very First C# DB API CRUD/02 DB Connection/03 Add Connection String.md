@@ -10,7 +10,9 @@ here we will append the connection string after AllowedHosts
 //   },
 //   "AllowedHosts": "*",
   "ConnectionStrings": {
-    "DefaultConnection": "Server=COM-36\\SQL2016;Database=FirstApp;User Id=sa;Password=skhot@2016;Trusted_connection=true;TrustServerCertificate=true;"
+    "DefaultConnection": "Server=COM-36\\SQL2016;Database=FirstApp;User Id=sa;Password=skhot@2016;Trusted_connection=true;TrustServerCertificate=true;",
+    // "DefaultConnection": "Server=DESKTOP-T5UQ4DF;Database=ProductDemo;Trusted_Connection=True;TrustServerCertificate=True;" // for local servers
+
   }
 // }
 ```  
@@ -20,7 +22,7 @@ Add this to `Program.cs` file:
 builder.Services.AddDbContext<ApplicationDbContext>(options => options
         .UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 ```  
-just before `builder.build()` is  variable (mostly named app)  
+just before `builder.build()` , a variable (mostly named app)  
 
 here we binded our Application-Database-Context, means this DbContext is bridge between code & database.  
 & in this method call's arrow function we passed our connection string

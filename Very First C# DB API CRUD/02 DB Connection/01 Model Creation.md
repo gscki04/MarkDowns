@@ -11,7 +11,7 @@ namespace EmployeeAdminPortal.Model.Entities {
         // Guid == Globally Unique Identifier (Random number generator)
         public required string Name { get; set; }
         public required string Email { get; set; }
-        public string? Phone { get; set; }  // nullable prope rty
+        public string? Phone { get; set; }  // nullable property
         public decimal Salary { get; set; }
     }
 }
