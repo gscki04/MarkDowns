@@ -1,0 +1,4 @@
+A **join** in programming (specifically in SQL or LINQ) is a way to combine rows from two or more datasets based on a related column between them. It allows you to merge data from multiple sources into a single, cohesive result. For example, in a database with a `Customers` table and an `Orders` table, a join would enable you to combine the customer information with their respective orders by matching the `CustomerId` from both tables. Common types of joins include **inner join** (only returns matching records), **left join** (returns all records from the left table, and matching from the right), and **right join** (returns all records from the right table, and matching from the left). Joins are essential for querying relational data efficiently.  
+
+
+https://www.youtube.com/watch?v=_6XZEvsXONs&list=PLaFzfwmPR7_IZuwiT6nqcvNEhKl_Mg19A&index=32  
