@@ -1,15 +1,14 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Product_APIs.Data;
 using Product_APIs.Model;
 using Product_APIs.Model.Entities;
 
-namespace Product_APIs.Controllers
-{
+namespace Product_APIs.Controllers {
     [Route("api/[controller]")]
     [ApiController]
-    public class ProductController : ControllerBase
-    {
+    public class ProductController : ControllerBase {
         private readonly ApplicationDBContext dBContext;
 
         public ProductController(ApplicationDBContext dBContext) {
@@ -19,13 +18,17 @@ namespace Product_APIs.Controllers
         //all endpoint here
 
         [HttpGet] // get all products
-        public IActionResult GetAllProduct() { 
-            var allProducts = dBContext.products.ToList();
+        public async Task<IActionResult> GetAllProduct() {
+            var allProducts = await dBContext.products.ToListAsync();
             return Ok(allProducts);
         }
 
         [HttpPost] // create a product
-        public IActionResult AddProdcut(AddProductDTO addProductDTO) {
+        public IActionResult AddProduct(AddProductDTO addProductDTO) {
+
+            if (!ModelState.IsValid) {
+                return BadRequest(ModelState);
+            }
 
             var productEntity = new Product() {
                 ProductName = addProductDTO.ProductName,
@@ -38,8 +41,8 @@ namespace Product_APIs.Controllers
         }
 
         [HttpGet] // get single product using id
-        [Route("{id:guid}")]
-        public IActionResult GetProductById(Guid id) {
+        [Route("{id:int}")]
+        public IActionResult GetProductById(int id) {
             var product = dBContext.products.Find(id);
 
             if (product == null) {
@@ -53,8 +56,8 @@ namespace Product_APIs.Controllers
         }
 
         [HttpPut] // update product using id
-        [Route("{id:guid}")]
-        public IActionResult UpdateProduct(Guid id, UpdateProductDTO updateProductDTO) {
+        [Route("{id:int}")]
+        public IActionResult UpdateProduct(int id, UpdateProductDTO updateProductDTO) {
             var product = dBContext.products.Find(id);
 
             if (product == null) {
@@ -72,8 +75,8 @@ namespace Product_APIs.Controllers
         }
 
         [HttpDelete]
-        [Route("{id:guid}")]
-        public IActionResult DeleteProduct(Guid id) {
+        [Route("{id:int}")]
+        public IActionResult DeleteProduct(int id) {
             var product = dBContext.products.Find(id);
 
             if (product is null) {

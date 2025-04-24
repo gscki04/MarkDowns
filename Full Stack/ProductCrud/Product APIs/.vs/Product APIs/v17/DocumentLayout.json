@@ -3,24 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\Product APIs\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D2EC339A-673C-4F54-B56E-A2142055F523}|Product APIs\\Product APIs.csproj|c:\\users\\sanja\\onedrive\\desktop\\gsc study\\c#\\product apis\\product apis\\model\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2EC339A-673C-4F54-B56E-A2142055F523}|Product APIs\\Product APIs.csproj|solutionrelative:product apis\\model\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D2EC339A-673C-4F54-B56E-A2142055F523}|Product APIs\\Product APIs.csproj|c:\\users\\sanja\\onedrive\\desktop\\gsc study\\c#\\product apis\\product apis\\model\\addproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2EC339A-673C-4F54-B56E-A2142055F523}|Product APIs\\Product APIs.csproj|solutionrelative:product apis\\model\\addproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2EC339A-673C-4F54-B56E-A2142055F523}|Product APIs\\Product APIs.csproj|c:\\users\\sanja\\onedrive\\desktop\\gsc study\\c#\\product apis\\product apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2EC339A-673C-4F54-B56E-A2142055F523}|Product APIs\\Product APIs.csproj|solutionrelative:product apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2EC339A-673C-4F54-B56E-A2142055F523}|Product APIs\\Product APIs.csproj|c:\\users\\sanja\\onedrive\\desktop\\gsc study\\c#\\product apis\\product apis\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2EC339A-673C-4F54-B56E-A2142055F523}|Product APIs\\Product APIs.csproj|solutionrelative:product apis\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\Product APIs\\Product APIs\\Migrations\\20250424065126_initnig2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Product APIs\\Migrations\\20250424065126_initnig2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D2EC339A-673C-4F54-B56E-A2142055F523}|Product APIs\\Product APIs.csproj|c:\\users\\sanja\\onedrive\\desktop\\gsc study\\c#\\product apis\\product apis\\model\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2EC339A-673C-4F54-B56E-A2142055F523}|Product APIs\\Product APIs.csproj|solutionrelative:product apis\\model\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\Product APIs\\Product APIs\\Migrations\\20250424064448_initnig1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Product APIs\\Migrations\\20250424064448_initnig1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D2EC339A-673C-4F54-B56E-A2142055F523}|Product APIs\\Product APIs.csproj|c:\\users\\sanja\\onedrive\\desktop\\gsc study\\c#\\product apis\\product apis\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2EC339A-673C-4F54-B56E-A2142055F523}|Product APIs\\Product APIs.csproj|solutionrelative:product apis\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2EC339A-673C-4F54-B56E-A2142055F523}|Product APIs\\Product APIs.csproj|c:\\users\\sanja\\onedrive\\desktop\\gsc study\\c#\\product apis\\product apis\\model\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2EC339A-673C-4F54-B56E-A2142055F523}|Product APIs\\Product APIs.csproj|solutionrelative:product apis\\model\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2EC339A-673C-4F54-B56E-A2142055F523}|Product APIs\\Product APIs.csproj|c:\\users\\sanja\\onedrive\\desktop\\gsc study\\c#\\product apis\\product apis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D2EC339A-673C-4F54-B56E-A2142055F523}|Product APIs\\Product APIs.csproj|solutionrelative:product apis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2EC339A-673C-4F54-B56E-A2142055F523}|Product APIs\\Product APIs.csproj|c:\\users\\sanja\\onedrive\\desktop\\gsc study\\c#\\product apis\\product apis\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2EC339A-673C-4F54-B56E-A2142055F523}|Product APIs\\Product APIs.csproj|solutionrelative:product apis\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\Product APIs\\Product APIs\\Migrations\\20250424062140_inititalmigration01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Product APIs\\Migrations\\20250424062140_inititalmigration01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2EC339A-673C-4F54-B56E-A2142055F523}|Product APIs\\Product APIs.csproj|c:\\users\\sanja\\onedrive\\desktop\\gsc study\\c#\\product apis\\product apis\\migrations\\20250424061746_inititalmigration1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2EC339A-673C-4F54-B56E-A2142055F523}|Product APIs\\Product APIs.csproj|solutionrelative:product apis\\migrations\\20250424061746_inititalmigration1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,72 +54,149 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\Product APIs\\Product APIs\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Product APIs\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\Product APIs\\Product APIs\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Product APIs\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAgwEsAAAA1AAAAAAAAAA==",
+              "Title": "20250424065126_initnig2.cs",
+              "DocumentMoniker": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\Product APIs\\Product APIs\\Migrations\\20250424065126_initnig2.cs",
+              "RelativeDocumentMoniker": "Product APIs\\Migrations\\20250424065126_initnig2.cs",
+              "ToolTip": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\Product APIs\\Product APIs\\Migrations\\20250424065126_initnig2.cs",
+              "RelativeToolTip": "Product APIs\\Migrations\\20250424065126_initnig2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T07:07:40.719Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-04-24T06:51:26.597Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AddProductDTO.cs",
-              "DocumentMoniker": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\Product APIs\\Product APIs\\Model\\AddProductDTO.cs",
-              "RelativeDocumentMoniker": "Product APIs\\Model\\AddProductDTO.cs",
-              "ToolTip": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\Product APIs\\Product APIs\\Model\\AddProductDTO.cs",
-              "RelativeToolTip": "Product APIs\\Model\\AddProductDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "20250424064448_initnig1.cs",
+              "DocumentMoniker": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\Product APIs\\Product APIs\\Migrations\\20250424064448_initnig1.cs",
+              "RelativeDocumentMoniker": "Product APIs\\Migrations\\20250424064448_initnig1.cs",
+              "ToolTip": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\Product APIs\\Product APIs\\Migrations\\20250424064448_initnig1.cs",
+              "RelativeToolTip": "Product APIs\\Migrations\\20250424064448_initnig1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T09:03:36.49Z",
+              "WhenOpened": "2025-04-24T06:44:48.824Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\Product APIs\\Product APIs\\Model\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "Product APIs\\Model\\Entities\\Product.cs",
-              "ToolTip": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\Product APIs\\Product APIs\\Model\\Entities\\Product.cs",
-              "RelativeToolTip": "Product APIs\\Model\\Entities\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T08:34:17.441Z",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\Product APIs\\Product APIs\\appsettings.json",
+              "RelativeDocumentMoniker": "Product APIs\\appsettings.json",
+              "ToolTip": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\Product APIs\\Product APIs\\appsettings.json",
+              "RelativeToolTip": "Product APIs\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-24T06:25:39.822Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UpdateProductDTO.cs",
-              "DocumentMoniker": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\Product APIs\\Product APIs\\Model\\UpdateProductDTO.cs",
-              "RelativeDocumentMoniker": "Product APIs\\Model\\UpdateProductDTO.cs",
-              "ToolTip": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\Product APIs\\Product APIs\\Model\\UpdateProductDTO.cs",
-              "RelativeToolTip": "Product APIs\\Model\\UpdateProductDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "20250424062140_inititalmigration01.cs",
+              "DocumentMoniker": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\Product APIs\\Product APIs\\Migrations\\20250424062140_inititalmigration01.cs",
+              "RelativeDocumentMoniker": "Product APIs\\Migrations\\20250424062140_inititalmigration01.cs",
+              "ToolTip": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\Product APIs\\Product APIs\\Migrations\\20250424062140_inititalmigration01.cs",
+              "RelativeToolTip": "Product APIs\\Migrations\\20250424062140_inititalmigration01.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T08:06:15.146Z",
+              "WhenOpened": "2025-04-24T06:21:40.225Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "ApplicationDBContext.cs",
               "DocumentMoniker": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\Product APIs\\Product APIs\\Data\\ApplicationDBContext.cs",
               "RelativeDocumentMoniker": "Product APIs\\Data\\ApplicationDBContext.cs",
               "ToolTip": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\Product APIs\\Product APIs\\Data\\ApplicationDBContext.cs",
               "RelativeToolTip": "Product APIs\\Data\\ApplicationDBContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T05:57:44.758Z",
+              "WhenOpened": "2025-04-24T06:20:13.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20250424061746_inititalmigration1.cs",
+              "DocumentMoniker": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\Product APIs\\Product APIs\\Migrations\\20250424061746_inititalmigration1.cs",
+              "RelativeDocumentMoniker": "Product APIs\\Migrations\\20250424061746_inititalmigration1.cs",
+              "ToolTip": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\Product APIs\\Product APIs\\Migrations\\20250424061746_inititalmigration1.cs",
+              "RelativeToolTip": "Product APIs\\Migrations\\20250424061746_inititalmigration1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T06:17:48.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\Product APIs\\Product APIs\\Program.cs",
+              "RelativeDocumentMoniker": "Product APIs\\Program.cs",
+              "ToolTip": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\Product APIs\\Product APIs\\Program.cs",
+              "RelativeToolTip": "Product APIs\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T06:14:41.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddProductDTO.cs",
+              "DocumentMoniker": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\Product APIs\\Product APIs\\Model\\AddProductDTO.cs",
+              "RelativeDocumentMoniker": "Product APIs\\Model\\AddProductDTO.cs",
+              "ToolTip": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\Product APIs\\Product APIs\\Model\\AddProductDTO.cs",
+              "RelativeToolTip": "Product APIs\\Model\\AddProductDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T06:13:23.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\Product APIs\\Product APIs\\Model\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Product APIs\\Model\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\Product APIs\\Product APIs\\Model\\Entities\\Product.cs",
+              "RelativeToolTip": "Product APIs\\Model\\Entities\\Product.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T06:13:13.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\Product APIs\\Product APIs\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Product APIs\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\Product APIs\\Product APIs\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Product APIs\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T06:12:20.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UpdateProductDTO.cs",
+              "DocumentMoniker": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\Product APIs\\Product APIs\\Model\\UpdateProductDTO.cs",
+              "RelativeDocumentMoniker": "Product APIs\\Model\\UpdateProductDTO.cs",
+              "ToolTip": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\Product APIs\\Product APIs\\Model\\UpdateProductDTO.cs",
+              "RelativeToolTip": "Product APIs\\Model\\UpdateProductDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T13:46:12.216Z",
               "EditorCaption": ""
             }
           ]

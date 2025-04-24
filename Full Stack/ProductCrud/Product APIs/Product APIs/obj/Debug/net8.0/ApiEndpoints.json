@@ -11,7 +11,7 @@
   },
   {
     "ContainingType": "Product_APIs.Controllers.ProductController",
-    "Method": "AddProdcut",
+    "Method": "AddProduct",
     "RelativePath": "api/Product",
     "HttpMethod": "POST",
     "IsController": true,
@@ -35,7 +35,7 @@
     "Parameters": [
       {
         "Name": "id",
-        "Type": "System.Guid",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -51,7 +51,7 @@
     "Parameters": [
       {
         "Name": "id",
-        "Type": "System.Guid",
+        "Type": "System.Int32",
         "IsRequired": true
       },
       {
@@ -72,7 +72,7 @@
     "Parameters": [
       {
         "Name": "id",
-        "Type": "System.Guid",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],

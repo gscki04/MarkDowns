@@ -10,8 +10,17 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<ApplicationDBContext>(options => options
+builder.Services.AddDbContext<ApplicationDBContext>(options => options  // db context here
         .UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddCors(options => {       // cors here
+    options.AddPolicy("AllowAngularApp", builder => {
+        builder.WithOrigins("http://localhost:4200")
+               .AllowAnyHeader()
+               .AllowAnyMethod();
+    });
+});
+
 
 var app = builder.Build();
 
@@ -23,6 +32,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors("AllowAngularApp"); // here
 
 app.UseAuthorization();
 

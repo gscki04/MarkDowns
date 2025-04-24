@@ -1,8 +1,12 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Product_APIs.Model.Entities {
     public class Product {
-        public Guid Id { get; set; }
+
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int Id { get; set; }
 
         [Required(ErrorMessage = "Product name is required.")]
         [StringLength(100, ErrorMessage = "Name can't exceed 100 characters.")]

@@ -2,6 +2,7 @@
 
 namespace Product_APIs.Model {
     public class AddProductDTO {
+
         [Required(ErrorMessage = "Product name is required.")]
         [StringLength(100, ErrorMessage = "Name can't exceed 100 characters.")]
         public string ProductName { get; set; }

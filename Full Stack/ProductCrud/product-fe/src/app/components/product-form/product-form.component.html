@@ -1,0 +1,22 @@
+<h2>Add Product</h2>
+<div class="addProductDiv">
+    <form [formGroup]="productForm" (ngSubmit)="onSubmit()">
+        <label>
+            Name: <input formControlName="name">
+        </label>
+        <div *ngIf="productForm.get('name')?.invalid && productForm.get('name')?.touched">
+            <small *ngIf="productForm.get('name')?.errors?.['required']" >Product name is required.</small>
+            <small *ngIf="productForm.get('name')?.errors?.['maxlength']" >Max 100 character</small>
+        </div>
+        
+        <label>
+            Price: <input type="number" formControlName="price" >
+        </label>
+        <div *ngIf="productForm.get('price')?.invalid && productForm.get('price')?.touched">
+            <small *ngIf="productForm.get('price')?.errors?.['required']" >Product value is required.</small>
+            <small *ngIf="productForm.get('price')?.errors?.['min']" >Min value is 1</small>
+        </div>
+        
+        <button type="submit" [disabled]="productForm.invalid">Add Product</button>
+    </form>
+</div>
