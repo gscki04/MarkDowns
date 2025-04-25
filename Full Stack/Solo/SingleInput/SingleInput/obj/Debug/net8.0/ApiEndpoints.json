@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "SingleInput.Controllers.SoloController",
+    "Method": "GetAllSolo",
+    "RelativePath": "api/Solo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SingleInput.Controllers.SoloController",
+    "Method": "AddSolo",
+    "RelativePath": "api/Solo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addSoloDTO",
+        "Type": "SingleInput.Model.AddSoloDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SingleInput.Controllers.SoloController",
+    "Method": "GetSoloById",
+    "RelativePath": "api/Solo/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SingleInput.Controllers.SoloController",
+    "Method": "UpdateSolo",
+    "RelativePath": "api/Solo/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateSoloDTO",
+        "Type": "SingleInput.Model.UpdateSoloDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SingleInput.Controllers.SoloController",
+    "Method": "DeleteSolo",
+    "RelativePath": "api/Solo/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

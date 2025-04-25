@@ -1,13 +1,35 @@
-01. creating project  
-02. adding dependancies  
-03. creating model  
-04. defining database context
-05. creating & passing connection string  
-06. migration  
-07. creating controller  
-08. creating Get Method
-09. creating DTO for POST Method
-10. creating POST Method  
-11. Creating GET ByID Method  
-12. Creating PUT Method  
-13. creating DELETE Method
+```typescript
+import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
+import { SoloModel } from '../models/solo.model';
+
+@Injectable({
+  providedIn: 'root',
+})
+export class SoloService {
+  private apiUrl = 'https://localhost:5001/api/solo';  // Update the API endpoint
+
+  constructor(private http: HttpClient) {}
+
+  getSolos(): Observable<SoloModel[]> {
+    return this.http.get<SoloModel[]>(this.apiUrl);
+  }
+
+  getSoloById(id: number): Observable<SoloModel> {
+    return this.http.get<SoloModel>(`${this.apiUrl}/${id}`);
+  }
+
+  addSolo(solo: SoloModel): Observable<SoloModel> {
+    return this.http.post<SoloModel>(this.apiUrl, solo);
+  }
+
+  updateSolo(id: number, solo: SoloModel): Observable<void> {
+    return this.http.put<void>(`${this.apiUrl}/${id}`, solo);
+  }
+
+  deleteSolo(id: number): Observable<void> {
+    return this.http.delete<void>(`${this.apiUrl}/${id}`);
+  }
+}
+```  

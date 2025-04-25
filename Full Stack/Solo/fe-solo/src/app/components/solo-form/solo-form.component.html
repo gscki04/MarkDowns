@@ -1,0 +1,25 @@
+<h2>{{ isEditing ? 'Edit Solo' : 'Add Solo' }}</h2>
+
+<form [formGroup]="soloForm" (ngSubmit)="onSubmit()">
+  <div>
+    <label for="name">Name</label>
+    <input
+      id="name"
+      formControlName="name"
+      type="text"
+      placeholder="Enter solo name"
+    />
+    <div *ngIf="soloForm.get('name')?.invalid && soloForm.get('name')?.touched">
+      <small *ngIf="soloForm.get('name')?.errors?.['required']">
+        Name is required.
+      </small>
+      <small *ngIf="soloForm.get('name')?.errors?.['maxlength']">
+        Name can't exceed 100 characters.
+      </small>
+    </div>
+  </div>
+
+  <button type="submit" [disabled]="soloForm.invalid">
+    {{ isEditing ? 'Update' : 'Add' }} Solo
+  </button>
+</form>

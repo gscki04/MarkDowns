@@ -1,0 +1,11 @@
+<h2>Solos List</h2>
+
+<ul>
+  <li *ngFor="let solo of solos">
+    <span>{{ solo.name }}</span>
+    <button (click)="editSolo(solo.id)">Edit</button>
+    <button (click)="deleteSolo(solo.id)">Delete</button>
+  </li>
+</ul>
+
+<button routerLink="/add-solo">Add New Solo</button>
