@@ -28,9 +28,9 @@ export class SoloListComponent implements OnInit {
   loadSolos(): void {
     console.log('Loading solos');
     this.soloService.getSolos().subscribe({
-      next: (solos) => {
-        console.log('Loaded solos:', solos);
-        this.solos = solos;
+      next: (result) => {
+        this.solos = result;
+        console.log('Loaded solos:', result);
       },
       error: (err) => {
         console.error('Error loading solos', err);
@@ -65,13 +65,13 @@ export class SoloListComponent implements OnInit {
 ```html
 <h2>Solos List</h2>
 
-<ul>
-  <li *ngFor="let solo of solos">
-    <span>{{ solo.name }}</span>
-    <button (click)="editSolo(solo.id)">Edit</button>
-    <button (click)="deleteSolo(solo.id)">Delete</button>
-  </li>
-</ul>
+<table style="margin-left: 30px; padding: 100px; width: 30%; border: 1px solid black;">
+    <tr *ngFor="let solo of solos">
+        <td>{{ solo.name }}</td>
+        <td> <button (click)="editSolo(solo.id)">Edit</button></td>
+        <td> <button (click)="deleteSolo(solo.id)">Delete</button></td>
+    </tr>
+</table>
 
 <button routerLink="/add-solo">Add New Solo</button>
 ```  

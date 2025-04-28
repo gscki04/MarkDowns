@@ -66,9 +66,7 @@ namespace SingleInput.Controllers
         [HttpPost]
         public IActionResult AddSolo(AddSoloDTO addSoloDTO) {
 
-            if (!ModelState.IsValid) { 
-                return BadRequest(ModelState);
-            }
+            if(!ModelState.IsValid) return BadRequest(ModelState);
 
             var tempEntity = new Solo() {
                 Name = addSoloDTO.Name,

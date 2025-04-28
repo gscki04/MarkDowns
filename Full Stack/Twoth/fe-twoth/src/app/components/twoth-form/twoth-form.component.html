@@ -1,0 +1,19 @@
+<h2>twoth-form</h2>
+<h2>{{ isEditing ? 'Edit' : 'Add' }}</h2>
+
+<form [formGroup]="twothForm">
+    <div>
+        <label for="name">Name</label>
+        <input 
+        formControlName="name"
+        id="name"
+        type="text"
+        placeholder="Enter the name">
+        
+        <div *ngIf="twothForm.get('name')?.invalid && twothForm.get('name')?.touched">
+            <small *ngIf="twothForm.get('name')?.errors?.['required']" >Name is require</small>
+            <small *ngIf="twothForm.get('name')?.errors?.['maxlength']" >Name cannot exceed 50 characters</small>
+        </div>
+        <button type="submit" (click)="onSubmit()" [disabled]="twothForm.invalid">{{ isEditing ? 'update' : 'add' }} Entry</button>
+    </div>
+</form>

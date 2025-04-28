@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\MarkDowns\\Full Stack\\Solo\\SingleInput\\SingleInput\\SingleInput.csproj": {}
+    "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\SingleInput\\SingleInput\\SingleInput.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\MarkDowns\\Full Stack\\Solo\\SingleInput\\SingleInput\\SingleInput.csproj": {
+    "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\SingleInput\\SingleInput\\SingleInput.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\MarkDowns\\Full Stack\\Solo\\SingleInput\\SingleInput\\SingleInput.csproj",
+        "projectUniqueName": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\SingleInput\\SingleInput\\SingleInput.csproj",
         "projectName": "SingleInput",
-        "projectPath": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\MarkDowns\\Full Stack\\Solo\\SingleInput\\SingleInput\\SingleInput.csproj",
+        "projectPath": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\SingleInput\\SingleInput\\SingleInput.csproj",
         "packagesPath": "C:\\Users\\sanja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\MarkDowns\\Full Stack\\Solo\\SingleInput\\SingleInput\\obj\\",
+        "outputPath": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\SingleInput\\SingleInput\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

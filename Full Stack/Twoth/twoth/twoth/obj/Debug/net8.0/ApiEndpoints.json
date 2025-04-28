@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "twoth.Controllers.TwothController",
+    "Method": "GetAllTwoths",
+    "RelativePath": "api/Twoth",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "twoth.Controllers.TwothController",
+    "Method": "AddTwoth",
+    "RelativePath": "api/Twoth",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addTwoths",
+        "Type": "twoth.Entities.AddTwoths",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "twoth.Controllers.TwothController",
+    "Method": "GetTwothById",
+    "RelativePath": "api/Twoth/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "twoth.Controllers.TwothController",
+    "Method": "UpdateTwoth",
+    "RelativePath": "api/Twoth/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateTwoth",
+        "Type": "twoth.Entities.Model.UpdateTwoth",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "twoth.Controllers.TwothController",
+    "Method": "DeleteTwoth",
+    "RelativePath": "api/Twoth/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

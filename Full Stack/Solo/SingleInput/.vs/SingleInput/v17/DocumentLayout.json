@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\SingleInput\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\SingleInput\\SingleInput\\Migrations\\20250425105032_InitialMigration1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SingleInput\\Migrations\\20250425105032_InitialMigration1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6B64ED3-CD2A-454C-AF07-B0C0D54A1FA4}|SingleInput\\SingleInput.csproj|c:\\users\\sanja\\onedrive\\desktop\\gsc study\\c#\\singleinput\\singleinput\\controllers\\solocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6B64ED3-CD2A-454C-AF07-B0C0D54A1FA4}|SingleInput\\SingleInput.csproj|solutionrelative:singleinput\\controllers\\solocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6B64ED3-CD2A-454C-AF07-B0C0D54A1FA4}|SingleInput\\SingleInput.csproj|c:\\users\\sanja\\onedrive\\desktop\\gsc study\\c#\\singleinput\\singleinput\\model\\addsolodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6B64ED3-CD2A-454C-AF07-B0C0D54A1FA4}|SingleInput\\SingleInput.csproj|solutionrelative:singleinput\\model\\addsolodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6B64ED3-CD2A-454C-AF07-B0C0D54A1FA4}|SingleInput\\SingleInput.csproj|c:\\users\\sanja\\onedrive\\desktop\\gsc study\\c#\\singleinput\\singleinput\\singleinput.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{B6B64ED3-CD2A-454C-AF07-B0C0D54A1FA4}|SingleInput\\SingleInput.csproj|solutionrelative:singleinput\\singleinput.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6B64ED3-CD2A-454C-AF07-B0C0D54A1FA4}|SingleInput\\SingleInput.csproj|c:\\users\\sanja\\onedrive\\desktop\\gsc study\\c#\\singleinput\\singleinput\\migrations\\20250425105032_initialmigration1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6B64ED3-CD2A-454C-AF07-B0C0D54A1FA4}|SingleInput\\SingleInput.csproj|solutionrelative:singleinput\\migrations\\20250425105032_initialmigration1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6B64ED3-CD2A-454C-AF07-B0C0D54A1FA4}|SingleInput\\SingleInput.csproj|c:\\users\\sanja\\onedrive\\desktop\\gsc study\\c#\\singleinput\\singleinput\\model\\entities\\solo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6B64ED3-CD2A-454C-AF07-B0C0D54A1FA4}|SingleInput\\SingleInput.csproj|solutionrelative:singleinput\\model\\entities\\solo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6B64ED3-CD2A-454C-AF07-B0C0D54A1FA4}|SingleInput\\SingleInput.csproj|c:\\users\\sanja\\onedrive\\desktop\\gsc study\\c#\\singleinput\\singleinput\\controllers\\solocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6B64ED3-CD2A-454C-AF07-B0C0D54A1FA4}|SingleInput\\SingleInput.csproj|solutionrelative:singleinput\\controllers\\solocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B6B64ED3-CD2A-454C-AF07-B0C0D54A1FA4}|SingleInput\\SingleInput.csproj|c:\\users\\sanja\\onedrive\\desktop\\gsc study\\c#\\singleinput\\singleinput\\model\\updatesolodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6B64ED3-CD2A-454C-AF07-B0C0D54A1FA4}|SingleInput\\SingleInput.csproj|solutionrelative:singleinput\\model\\updatesolodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6B64ED3-CD2A-454C-AF07-B0C0D54A1FA4}|SingleInput\\SingleInput.csproj|c:\\users\\sanja\\onedrive\\desktop\\gsc study\\c#\\singleinput\\singleinput\\model\\addsolodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6B64ED3-CD2A-454C-AF07-B0C0D54A1FA4}|SingleInput\\SingleInput.csproj|solutionrelative:singleinput\\model\\addsolodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6B64ED3-CD2A-454C-AF07-B0C0D54A1FA4}|SingleInput\\SingleInput.csproj|c:\\users\\sanja\\onedrive\\desktop\\gsc study\\c#\\singleinput\\singleinput\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B6B64ED3-CD2A-454C-AF07-B0C0D54A1FA4}|SingleInput\\SingleInput.csproj|c:\\users\\sanja\\onedrive\\desktop\\gsc study\\c#\\singleinput\\singleinput\\singleinput.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{B6B64ED3-CD2A-454C-AF07-B0C0D54A1FA4}|SingleInput\\SingleInput.csproj|solutionrelative:singleinput\\singleinput.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6B64ED3-CD2A-454C-AF07-B0C0D54A1FA4}|SingleInput\\SingleInput.csproj|c:\\users\\sanja\\onedrive\\desktop\\gsc study\\c#\\singleinput\\singleinput\\singleinput.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{B6B64ED3-CD2A-454C-AF07-B0C0D54A1FA4}|SingleInput\\SingleInput.csproj|solutionrelative:singleinput\\singleinput.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,24 +58,23 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "20250425105032_InitialMigration1.cs",
               "DocumentMoniker": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\SingleInput\\SingleInput\\Migrations\\20250425105032_InitialMigration1.cs",
               "RelativeDocumentMoniker": "SingleInput\\Migrations\\20250425105032_InitialMigration1.cs",
               "ToolTip": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\SingleInput\\SingleInput\\Migrations\\20250425105032_InitialMigration1.cs",
               "RelativeToolTip": "SingleInput\\Migrations\\20250425105032_InitialMigration1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T10:50:32.363Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T10:50:32.363Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "UpdateSoloDTO.cs",
               "DocumentMoniker": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\SingleInput\\SingleInput\\Model\\UpdateSoloDTO.cs",
               "RelativeDocumentMoniker": "SingleInput\\Model\\UpdateSoloDTO.cs",
@@ -83,12 +82,11 @@
               "RelativeToolTip": "SingleInput\\Model\\UpdateSoloDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T10:22:30.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T10:22:30.688Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "20250425100638_InitialMigration1.cs",
               "DocumentMoniker": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\SingleInput\\SingleInput\\Migrations\\20250425100638_InitialMigration1.cs",
               "RelativeDocumentMoniker": "SingleInput\\Migrations\\20250425100638_InitialMigration1.cs",
@@ -96,38 +94,37 @@
               "RelativeToolTip": "SingleInput\\Migrations\\20250425100638_InitialMigration1.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAAwBoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T10:06:39.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T10:06:39.059Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "AddSoloDTO.cs",
               "DocumentMoniker": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\SingleInput\\SingleInput\\Model\\AddSoloDTO.cs",
               "RelativeDocumentMoniker": "SingleInput\\Model\\AddSoloDTO.cs",
               "ToolTip": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\SingleInput\\SingleInput\\Model\\AddSoloDTO.cs",
               "RelativeToolTip": "SingleInput\\Model\\AddSoloDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T09:17:18.069Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "SoloController.cs",
               "DocumentMoniker": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\SingleInput\\SingleInput\\Controllers\\SoloController.cs",
               "RelativeDocumentMoniker": "SingleInput\\Controllers\\SoloController.cs",
               "ToolTip": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\SingleInput\\SingleInput\\Controllers\\SoloController.cs",
               "RelativeToolTip": "SingleInput\\Controllers\\SoloController.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAA1wGAAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAAGMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T08:59:21.604Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "20250425085509_InitialMigration.cs",
               "DocumentMoniker": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\SingleInput\\SingleInput\\Migrations\\20250425085509_InitialMigration.cs",
               "RelativeDocumentMoniker": "SingleInput\\Migrations\\20250425085509_InitialMigration.cs",
@@ -135,12 +132,11 @@
               "RelativeToolTip": "SingleInput\\Migrations\\20250425085509_InitialMigration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T08:55:09.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T08:55:09.511Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\SingleInput\\SingleInput\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "SingleInput\\Data\\ApplicationDbContext.cs",
@@ -148,12 +144,11 @@
               "RelativeToolTip": "SingleInput\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T08:43:50.109Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T08:43:50.109Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Solo.cs",
               "DocumentMoniker": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\SingleInput\\SingleInput\\Model\\Entities\\Solo.cs",
               "RelativeDocumentMoniker": "SingleInput\\Model\\Entities\\Solo.cs",
@@ -161,25 +156,23 @@
               "RelativeToolTip": "SingleInput\\Model\\Entities\\Solo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T08:40:02.085Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T08:40:02.085Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "SingleInput.http",
               "DocumentMoniker": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\SingleInput\\SingleInput\\SingleInput.http",
               "RelativeDocumentMoniker": "SingleInput\\SingleInput.http",
               "ToolTip": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\SingleInput\\SingleInput\\SingleInput.http",
               "RelativeToolTip": "SingleInput\\SingleInput.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-04-25T08:19:20.382Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T08:19:20.382Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\SingleInput\\SingleInput\\Program.cs",
               "RelativeDocumentMoniker": "SingleInput\\Program.cs",
@@ -187,12 +180,11 @@
               "RelativeToolTip": "SingleInput\\Program.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAUwB0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T08:18:46.918Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T08:18:46.918Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\SingleInput\\SingleInput\\appsettings.json",
               "RelativeDocumentMoniker": "SingleInput\\appsettings.json",
@@ -200,21 +192,19 @@
               "RelativeToolTip": "SingleInput\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-25T08:17:36.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T08:17:36.53Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "SingleInput",
+              "DocumentIndex": 11,
+              "Title": "SingleInput.csproj",
               "DocumentMoniker": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\SingleInput\\SingleInput\\SingleInput.csproj",
               "RelativeDocumentMoniker": "SingleInput\\SingleInput.csproj",
               "ToolTip": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\SingleInput\\SingleInput\\SingleInput.csproj",
               "RelativeToolTip": "SingleInput\\SingleInput.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-25T08:15:02.215Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T08:15:02.215Z"
             }
           ]
         }

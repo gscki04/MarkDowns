@@ -90,11 +90,9 @@ namespace SingleInput.Controllers
                 return NotFound();
             }
 
-            var msg = tempEntity;
-
             dbContext.solos.Remove(tempEntity);
             dbContext.SaveChanges();
-            return Ok("Product Deleted!");
+            return NoContent(); // if we add anything other than this it gives problem at front end
         }
 
     }

@@ -13,7 +13,7 @@ namespace SingleInput.Model.Entities {
 
         [Required(ErrorMessage = "Name is required.")]
         [StringLength(100, ErrorMessage = "Name can't exceed 100 characters.")]
-        public string Name { get; set; }
+        public required string Name { get; set; }
     }
 }
 ```  

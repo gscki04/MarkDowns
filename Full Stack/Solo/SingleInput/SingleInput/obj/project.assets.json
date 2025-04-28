@@ -4547,11 +4547,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\MarkDowns\\Full Stack\\Solo\\SingleInput\\SingleInput\\SingleInput.csproj",
+      "projectUniqueName": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\SingleInput\\SingleInput\\SingleInput.csproj",
       "projectName": "SingleInput",
-      "projectPath": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\MarkDowns\\Full Stack\\Solo\\SingleInput\\SingleInput\\SingleInput.csproj",
+      "projectPath": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\SingleInput\\SingleInput\\SingleInput.csproj",
       "packagesPath": "C:\\Users\\sanja\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\MarkDowns\\Full Stack\\Solo\\SingleInput\\SingleInput\\obj\\",
+      "outputPath": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\SingleInput\\SingleInput\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4629,13 +4629,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://pkgs.dev.azure.com/KRISTAMINFOTECH/_packaging/kristam-utilities-management-feed/nuget/v3/index.json."
-    }
-  ]
+  }
 }

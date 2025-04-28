@@ -17,3 +17,12 @@ export interface SoloModel {
 }
 ```  
 
+## 3. Add ReactiveFormModule to `app.module.ts`  
+```typescript
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    ReactiveFormsModule,  //   🔄
+    HttpClientModule,     //   🔄
+  ],
+```  
