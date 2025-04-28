@@ -25,6 +25,8 @@ export class AppRoutingModule { }
 fe-solo\src\app\app.component.html:
 ```html
 <h1>Solo Input Application</h1>
+<app-solo-list></app-solo-list>
+<app-solo-form></app-solo-form>
 <router-outlet></router-outlet>
 
 ```
@@ -293,6 +295,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { SoloService } from '../../services/solo.service';
 import { SoloModel } from '../../models/solo.model';
+import { ChangeDetectorRef } from '@angular/core'; // Import ChangeDetectorRef
 
 @Component({
   selector: 'app-solo-list',
@@ -302,15 +305,21 @@ import { SoloModel } from '../../models/solo.model';
 export class SoloListComponent implements OnInit {
   solos: SoloModel[] = [];
 
-  constructor(private soloService: SoloService, private router: Router) {}
+  constructor(
+    private soloService: SoloService,
+    private router: Router,
+    private cdRef: ChangeDetectorRef // Inject ChangeDetectorRef
+  ) {}
 
   ngOnInit(): void {
     this.loadSolos();
   }
 
   loadSolos(): void {
+    console.log('Loading solos');
     this.soloService.getSolos().subscribe({
       next: (solos) => {
+        console.log('Loaded solos:', solos);
         this.solos = solos;
       },
       error: (err) => {
@@ -318,13 +327,15 @@ export class SoloListComponent implements OnInit {
       },
     });
   }
-
+  
   deleteSolo(id: number): void {
+    console.log('Deleting solo with id:', id);
     if (confirm('Are you sure you want to delete this solo?')) {
       this.soloService.deleteSolo(id).subscribe({
         next: () => {
-          // Directly update the solos list after deletion
+          console.log('Solo deleted, updating the list');
           this.solos = this.solos.filter(solo => solo.id !== id);
+          this.cdRef.detectChanges();
         },
         error: (err) => {
           console.error('Error deleting solo', err);
@@ -332,6 +343,7 @@ export class SoloListComponent implements OnInit {
       });
     }
   }
+  
 
   editSolo(id: number): void {
     this.router.navigate([`/edit-solo/${id}`]);
@@ -446,226 +458,3 @@ platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
 
 ```
-
-SingleInput\SingleInput\Controllers\SoloController.cs:
-```csharp
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using SingleInput.Data;
-using SingleInput.Model;
-using SingleInput.Model.Entities;
-
-namespace SingleInput.Controllers
-{
-
-    [Route("api/[controller]")]
-    [ApiController]
-    public class SoloController : ControllerBase {
-        private readonly ApplicationDbContext dbContext;  // 🔄: Create this with (CTRL + .) = assign field, create it manually
-
-        public SoloController(ApplicationDbContext dbContext) {
-            this.dbContext = dbContext;
-        }
-
-        // Read all records
-        [HttpGet]
-        public async Task<IActionResult> GetAllSolo() {
-            var allSolos = await dbContext.solos.ToListAsync();
-            return Ok(allSolos);
-        }
-
-        // Add record
-        [HttpPost]
-        public IActionResult AddSolo(AddSoloDTO addSoloDTO) {
-
-            if (!ModelState.IsValid) { 
-                return BadRequest(ModelState);
-            }
-
-            var tempEntity = new Solo() {
-                Name = addSoloDTO.Name,
-                // add other properties here in future
-            };
-
-            dbContext.solos.Add(tempEntity);
-            dbContext.SaveChanges();
-            return Ok(tempEntity);
-        }
-
-        //Read one record by Id
-       [HttpGet]
-       [Route("{id:int}")]
-        public IActionResult GetSoloById(int id) {
-
-            var tempEntity = dbContext.solos.Find(id);
-
-            if (tempEntity == null) { 
-                return NotFound();
-            }
-            if (!ModelState.IsValid) { 
-                return BadRequest(ModelState);
-            }
-
-            return Ok(tempEntity);
-        }
-
-        // Update record
-        [HttpPut]
-        [Route("{id:int}")]
-        public IActionResult UpdateSolo(int id, UpdateSoloDTO updateSoloDTO) {
-            var tempEntity = dbContext.solos.Find(id);
-
-            if (tempEntity == null) {
-                return NotFound();
-            }
-
-            if (!ModelState.IsValid) { 
-                return BadRequest(ModelState);
-            }
-
-            tempEntity.Name = updateSoloDTO.Name;
-            // other fields here
-
-            dbContext.SaveChanges();
-            return Ok(tempEntity);
-        }
-
-        // Delet Record
-        [HttpDelete]
-        [Route("{id:int}")]
-        public IActionResult DeleteSolo(int id) {
-            var tempEntity = dbContext.solos.Find(id);
-
-            if (tempEntity == null) {
-                return NotFound();
-            }
-
-            var msg = tempEntity;
-
-            dbContext.solos.Remove(tempEntity);
-            dbContext.SaveChanges();
-            return Ok("Product Deleted!");
-        }
-
-    }
-}
-
-```
-
-SingleInput\SingleInput\Data\ApplicationDbContext.cs:
-```csharp
-﻿using Microsoft.EntityFrameworkCore;
-using SingleInput.Model.Entities;
-
-namespace SingleInput.Data {
-    public class ApplicationDbContext : DbContext {
-
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base (options) {
-            // the constructor is automatically invoked every time you create an instance of a class
-        }
-
-        public DbSet<Solo> solos { get; set; }
-    }
-}
-
-```
-
-SingleInput\SingleInput\Model\AddSoloDTO.cs:
-```csharp
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace SingleInput.Model {
-    public class AddSoloDTO {
-
-        [Required(ErrorMessage = "Name is required!.")]
-        [StringLength(100, ErrorMessage = "Name can't exceed 100 characters.")]
-        public required string Name { get; set; }
-    }
-}
-
-```
-
-SingleInput\SingleInput\Model\Entities\Solo.cs:
-```csharp
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-
-namespace SingleInput.Model.Entities {
-    public class Solo {
-        [Key] // make this primary key
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
-
-        [Required(ErrorMessage = "Name is required.")]
-        [StringLength(100, ErrorMessage = "Name can't exceed 100 characters.")]
-        public string Name { get; set; }
-    }
-}
-
-```
-
-SingleInput\SingleInput\Model\UpdateSoloDTO.cs:
-```csharp
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace SingleInput.Model {
-    public class UpdateSoloDTO {
-
-        [Required(ErrorMessage = "Name is required!.")]
-        [StringLength(100, ErrorMessage = "Name can't exceed 100 characters.")]
-        public required string Name { get; set; }
-
-        // add other fields here
-    }
-}
-
-```
-
-SingleInput\SingleInput\Program.cs:
-```csharp
-using Microsoft.EntityFrameworkCore;
-using SingleInput.Data;
-
-var builder = WebApplication.CreateBuilder(args);
-
-// Add services to the container.
-
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
-builder.Services.AddCors(options => {       // cors here
-    options.AddPolicy("AllowAngularApp", builder => {
-        builder.WithOrigins("http://localhost:4200")
-               .AllowAnyHeader()
-               .AllowAnyMethod();
-    });
-});
-
-builder.Services.AddDbContext<ApplicationDbContext>(options => options
-        .UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
-
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
-
-app.UseHttpsRedirection();
-
-app.UseCors("AllowAngularApp"); // here
-
-app.UseAuthorization();
-
-app.MapControllers();
-
-app.Run();
-
-```
-

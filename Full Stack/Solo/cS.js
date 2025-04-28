@@ -1,3 +1,4 @@
+// cS.js = codeSummary.js
 const fs = require('fs');
 const path = require('path');
 
@@ -24,11 +25,13 @@ const supportedExtensions = {
 const ignoredFiles = [
   '.angular', '.vscode', 'node_modules', '.editorconfig', '.gitignore', 'Migrations', 'Debug',
   'angular.json', 'package-lock.json', 'package.json', 'README.md', 'Dependencies', 'Connected Services',
-  'tsconfig.app.json', 'tsconfig.json', 'tsconfig.spec.json', 'scripter.js', 'script', 'zzz.md'
+  'tsconfig.app.json', 'tsconfig.json', 'tsconfig.spec.json', 'cS.js', 'zzz.md'
 ];
 
 let processedFiles = 0;  // Counter to track processed files
 let totalFiles = 0;  // Counter to track total files to process
+let lastDir = '';  // To keep track of the last directory we were in
+let currentDir = ''; // To store the current directory we are processing
 
 // Function to recursively walk through directories
 function walkDir(dir, callback) {
@@ -81,6 +84,16 @@ function generateSummary(root) {
 
     const relativePath = path.relative(root, filePath);
     const content = fs.readFileSync(filePath, 'utf-8');
+    currentDir = path.dirname(relativePath).split(path.sep)[0];  // Get the first-level folder name
+
+    // If the directory has changed, add a separator (---) and finish the last directory's summary
+    if (currentDir !== lastDir) {
+      if (lastDir) {
+        summary += `\n---\n\n`;  // Add separator after processing the previous folder
+        summary += `After finishing all code summary of ${lastDir}\n\n`;  // Add summary for the last folder
+      }
+      lastDir = currentDir;  // Update lastDir
+    }
 
     // Log file processing
     console.log(`Processing file: ${relativePath}`);

@@ -1,3 +1,6 @@
+## Component:  
+`fe-solo\src\app\components\solo-list\solo-list.component.ts`:  
+```typescript
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { SoloService } from '../../services/solo.service';
@@ -56,3 +59,19 @@ export class SoloListComponent implements OnInit {
     this.router.navigate([`/edit-solo/${id}`]);
   }
 }
+```  
+## Template:  
+`fe-solo\src\app\components\solo-list\solo-list.component.html`  
+```html
+<h2>Solos List</h2>
+
+<ul>
+  <li *ngFor="let solo of solos">
+    <span>{{ solo.name }}</span>
+    <button (click)="editSolo(solo.id)">Edit</button>
+    <button (click)="deleteSolo(solo.id)">Delete</button>
+  </li>
+</ul>
+
+<button routerLink="/add-solo">Add New Solo</button>
+```  

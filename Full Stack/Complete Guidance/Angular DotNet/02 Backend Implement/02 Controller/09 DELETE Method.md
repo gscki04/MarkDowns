@@ -111,7 +111,7 @@ namespace SingleInput.Controllers
 
             dbContext.solos.Remove(tempEntity);
             dbContext.SaveChanges();
-            return Ok($"Product Deleted:\n{tempEntity}");
+            return NoContent(); // if we add anything other than this it gives problem at front end
         }
 
     }
