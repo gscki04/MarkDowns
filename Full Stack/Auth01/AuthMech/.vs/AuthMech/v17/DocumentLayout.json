@@ -1,0 +1,216 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\AuthMech\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D7FB51AA-E6AC-4C87-ABAD-955A44BBC7AA}|AuthMech\\AuthMech.csproj|c:\\users\\sanja\\onedrive\\desktop\\gsc study\\c#\\authmech\\authmech\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7FB51AA-E6AC-4C87-ABAD-955A44BBC7AA}|AuthMech\\AuthMech.csproj|solutionrelative:authmech\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7FB51AA-E6AC-4C87-ABAD-955A44BBC7AA}|AuthMech\\AuthMech.csproj|c:\\users\\sanja\\onedrive\\desktop\\gsc study\\c#\\authmech\\authmech\\model\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7FB51AA-E6AC-4C87-ABAD-955A44BBC7AA}|AuthMech\\AuthMech.csproj|solutionrelative:authmech\\model\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7FB51AA-E6AC-4C87-ABAD-955A44BBC7AA}|AuthMech\\AuthMech.csproj|c:\\users\\sanja\\onedrive\\desktop\\gsc study\\c#\\authmech\\authmech\\model\\helper\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7FB51AA-E6AC-4C87-ABAD-955A44BBC7AA}|AuthMech\\AuthMech.csproj|solutionrelative:authmech\\model\\helper\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7FB51AA-E6AC-4C87-ABAD-955A44BBC7AA}|AuthMech\\AuthMech.csproj|c:\\users\\sanja\\onedrive\\desktop\\gsc study\\c#\\authmech\\authmech\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7FB51AA-E6AC-4C87-ABAD-955A44BBC7AA}|AuthMech\\AuthMech.csproj|solutionrelative:authmech\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7FB51AA-E6AC-4C87-ABAD-955A44BBC7AA}|AuthMech\\AuthMech.csproj|c:\\users\\sanja\\onedrive\\desktop\\gsc study\\c#\\authmech\\authmech\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D7FB51AA-E6AC-4C87-ABAD-955A44BBC7AA}|AuthMech\\AuthMech.csproj|solutionrelative:authmech\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7FB51AA-E6AC-4C87-ABAD-955A44BBC7AA}|AuthMech\\AuthMech.csproj|c:\\users\\sanja\\onedrive\\desktop\\gsc study\\c#\\authmech\\authmech\\model\\dtos\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7FB51AA-E6AC-4C87-ABAD-955A44BBC7AA}|AuthMech\\AuthMech.csproj|solutionrelative:authmech\\model\\dtos\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7FB51AA-E6AC-4C87-ABAD-955A44BBC7AA}|AuthMech\\AuthMech.csproj|c:\\users\\sanja\\onedrive\\desktop\\gsc study\\c#\\authmech\\authmech\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7FB51AA-E6AC-4C87-ABAD-955A44BBC7AA}|AuthMech\\AuthMech.csproj|solutionrelative:authmech\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7FB51AA-E6AC-4C87-ABAD-955A44BBC7AA}|AuthMech\\AuthMech.csproj|c:\\users\\sanja\\onedrive\\desktop\\gsc study\\c#\\authmech\\authmech\\model\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7FB51AA-E6AC-4C87-ABAD-955A44BBC7AA}|AuthMech\\AuthMech.csproj|solutionrelative:authmech\\model\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7FB51AA-E6AC-4C87-ABAD-955A44BBC7AA}|AuthMech\\AuthMech.csproj|c:\\users\\sanja\\onedrive\\desktop\\gsc study\\c#\\authmech\\authmech\\authmech.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D7FB51AA-E6AC-4C87-ABAD-955A44BBC7AA}|AuthMech\\AuthMech.csproj|solutionrelative:authmech\\authmech.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7FB51AA-E6AC-4C87-ABAD-955A44BBC7AA}|AuthMech\\AuthMech.csproj|c:\\users\\sanja\\onedrive\\desktop\\gsc study\\c#\\authmech\\authmech\\migrations\\20250505071536_t3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7FB51AA-E6AC-4C87-ABAD-955A44BBC7AA}|AuthMech\\AuthMech.csproj|solutionrelative:authmech\\migrations\\20250505071536_t3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7FB51AA-E6AC-4C87-ABAD-955A44BBC7AA}|AuthMech\\AuthMech.csproj|c:\\users\\sanja\\onedrive\\desktop\\gsc study\\c#\\authmech\\authmech\\migrations\\20250505071209_t2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7FB51AA-E6AC-4C87-ABAD-955A44BBC7AA}|AuthMech\\AuthMech.csproj|solutionrelative:authmech\\migrations\\20250505071209_t2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7FB51AA-E6AC-4C87-ABAD-955A44BBC7AA}|AuthMech\\AuthMech.csproj|c:\\users\\sanja\\onedrive\\desktop\\gsc study\\c#\\authmech\\authmech\\migrations\\20250505070747_t1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7FB51AA-E6AC-4C87-ABAD-955A44BBC7AA}|AuthMech\\AuthMech.csproj|solutionrelative:authmech\\migrations\\20250505070747_t1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\AuthMech\\AuthMech\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AuthMech\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\AuthMech\\AuthMech\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AuthMech\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwCsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T09:12:29.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JwtTokenGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\AuthMech\\AuthMech\\Model\\Helper\\JwtTokenGenerator.cs",
+              "RelativeDocumentMoniker": "AuthMech\\Model\\Helper\\JwtTokenGenerator.cs",
+              "ToolTip": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\AuthMech\\AuthMech\\Model\\Helper\\JwtTokenGenerator.cs",
+              "RelativeToolTip": "AuthMech\\Model\\Helper\\JwtTokenGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T08:29:56.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LogInDTO.cs",
+              "DocumentMoniker": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\AuthMech\\AuthMech\\Model\\DTOs\\Auth\\LogInDTO.cs",
+              "RelativeDocumentMoniker": "AuthMech\\Model\\DTOs\\Auth\\LogInDTO.cs",
+              "ToolTip": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\AuthMech\\AuthMech\\Model\\DTOs\\Auth\\LogInDTO.cs",
+              "RelativeToolTip": "AuthMech\\Model\\DTOs\\Auth\\LogInDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T08:26:55.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\AuthMech\\AuthMech\\Model\\DTOs\\Auth\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "AuthMech\\Model\\DTOs\\Auth\\RegisterDTO.cs",
+              "ToolTip": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\AuthMech\\AuthMech\\Model\\DTOs\\Auth\\RegisterDTO.cs",
+              "RelativeToolTip": "AuthMech\\Model\\DTOs\\Auth\\RegisterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T08:25:50.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20250505071536_t3.cs",
+              "DocumentMoniker": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\AuthMech\\AuthMech\\Migrations\\20250505071536_t3.cs",
+              "RelativeDocumentMoniker": "AuthMech\\Migrations\\20250505071536_t3.cs",
+              "ToolTip": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\AuthMech\\AuthMech\\Migrations\\20250505071536_t3.cs",
+              "RelativeToolTip": "AuthMech\\Migrations\\20250505071536_t3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T07:15:37.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20250505071209_t2.cs",
+              "DocumentMoniker": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\AuthMech\\AuthMech\\Migrations\\20250505071209_t2.cs",
+              "RelativeDocumentMoniker": "AuthMech\\Migrations\\20250505071209_t2.cs",
+              "ToolTip": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\AuthMech\\AuthMech\\Migrations\\20250505071209_t2.cs",
+              "RelativeToolTip": "AuthMech\\Migrations\\20250505071209_t2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T07:12:09.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250505070747_t1.cs",
+              "DocumentMoniker": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\AuthMech\\AuthMech\\Migrations\\20250505070747_t1.cs",
+              "RelativeDocumentMoniker": "AuthMech\\Migrations\\20250505070747_t1.cs",
+              "ToolTip": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\AuthMech\\AuthMech\\Migrations\\20250505070747_t1.cs",
+              "RelativeToolTip": "AuthMech\\Migrations\\20250505070747_t1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T07:07:47.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\AuthMech\\AuthMech\\appsettings.json",
+              "RelativeDocumentMoniker": "AuthMech\\appsettings.json",
+              "ToolTip": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\AuthMech\\AuthMech\\appsettings.json",
+              "RelativeToolTip": "AuthMech\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-05T07:03:43.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\AuthMech\\AuthMech\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "AuthMech\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\AuthMech\\AuthMech\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "AuthMech\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAUwBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T06:55:02.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\AuthMech\\AuthMech\\Model\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "AuthMech\\Model\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\AuthMech\\AuthMech\\Model\\Entities\\User.cs",
+              "RelativeToolTip": "AuthMech\\Model\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T06:45:03.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\AuthMech\\AuthMech\\Program.cs",
+              "RelativeDocumentMoniker": "AuthMech\\Program.cs",
+              "ToolTip": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\AuthMech\\AuthMech\\Program.cs",
+              "RelativeToolTip": "AuthMech\\Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T06:02:58.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthMech.csproj",
+              "DocumentMoniker": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\AuthMech\\AuthMech\\AuthMech.csproj",
+              "RelativeDocumentMoniker": "AuthMech\\AuthMech.csproj",
+              "ToolTip": "C:\\Users\\sanja\\OneDrive\\Desktop\\GSC Study\\C#\\AuthMech\\AuthMech\\AuthMech.csproj",
+              "RelativeToolTip": "AuthMech\\AuthMech.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-05T05:57:22.538Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

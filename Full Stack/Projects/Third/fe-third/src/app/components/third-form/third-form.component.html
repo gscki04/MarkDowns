@@ -1,0 +1,20 @@
+<h2> {{ isEditing ? 'Edit Third' : 'Add Third' }} </h2>
+
+<form [formGroup]="thirdForm">
+    <div>
+        <label for="name">Name</label>
+        <input 
+        id="name"
+        formControlName="name"
+        type="text" 
+        placeholder="Enter the name">
+
+        <div *ngIf="thirdForm.get('name')?.invalid && thirdForm.get('name')?.touched">
+            <small *ngIf="thirdForm.get('name')?.errors?.['required']" >Name is required.</small>
+            <small *ngIf="thirdForm.get('name')?.errors?.['maxlength']" >Name can't exceed 50 characters.</small>
+        </div>
+    </div>
+    <button type="submit" (click)="onSubmit()" [disabled]="thirdForm.invalid">
+        {{ isEditing ? 'update' : 'add' }}
+    </button>
+</form>

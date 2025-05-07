@@ -1,0 +1,6 @@
+@AuthMech_HostAddress = http://localhost:5270
+
+GET {{AuthMech_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

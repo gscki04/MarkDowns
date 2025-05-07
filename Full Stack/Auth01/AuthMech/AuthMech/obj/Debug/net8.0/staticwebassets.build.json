@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "HE0ed09wiEyUHwWBIDr3LnXgz8HlW3rhGOOaA/8rw4A=",
+  "Source": "AuthMech",
+  "BasePath": "_content/AuthMech",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

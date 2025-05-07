@@ -1,0 +1,9 @@
+<h2>Third List</h2>
+<table style="margin: 30px; width: 10%;">
+    <tr *ngFor="let third of thirds">
+        <td>{{third.name}}</td>
+        <td><button (click)="editThird(third.id)" >Edit</button></td>
+        <td><button (click)="deleteThird(third.id)" >Delete</button></td>
+    </tr>
+</table>
+<button routerLink="/add-third" >Add New Third</button>
