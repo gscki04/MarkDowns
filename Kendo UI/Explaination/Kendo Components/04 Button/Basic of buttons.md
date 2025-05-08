@@ -13,6 +13,7 @@ ng generate component Sub/Buttons
 ```typescript
   { path: 'buttons', component: ButtonsComponent },
 ```  
+create card in main component  
 
 ### 4. Component file  
 `src\app\sub\buttons\buttons.component.ts`  

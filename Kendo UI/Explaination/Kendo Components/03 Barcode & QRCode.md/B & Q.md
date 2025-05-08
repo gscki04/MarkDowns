@@ -12,6 +12,7 @@ ng generate component Sub/Barcode
 ```typescript
   { path: 'barcode', component: BarcodeComponent }
 ```  
+create card in main component  
 
 this single  
 ### 4. import & add to imports array into components TS file  

@@ -1,0 +1,10 @@
+<button kendoButton (click)="open()">Open Dialog</button>
+
+<kendo-dialog *ngIf="showDialog" title="Please confirm">
+  <p>Are you sure you want to continue?</p>
+
+  <kendo-dialog-actions>
+    <button kendoButton (click)="close()">No</button>
+    <button kendoButton themeColor="primary" (click)="close()">Yes</button>
+  </kendo-dialog-actions>
+</kendo-dialog>
