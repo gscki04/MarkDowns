@@ -4,7 +4,7 @@
 import {Injectable} from '@angular/core';
 import {DataResult, orderBy, process, SortDescriptor} from '@progress/kendo-data-query';
 import {Observable, of} from 'rxjs';
-import {products} from '../dummyData/data.products';
+import {products} from '../DummyData/Products';
 ```
 
 * **`@angular/core`**: This imports the `Injectable` decorator, which makes the service class injectable into other components.
@@ -15,7 +15,7 @@ import {products} from '../dummyData/data.products';
   * **`process`**: A function used to filter and sort data. It is part of Kendo's query utilities.
   * **`SortDescriptor`**: Represents the sorting criteria (field and direction).
 * **`rxjs`**: The `Observable` and `of` are imported from the RxJS library. `Observable` is used for asynchronous programming, and `of` is used to wrap the result in an observable stream.
-* **`products`**: This is an array of product objects that you defined earlier, which contains the dummy data for your grid.
+* **`Products`**: This is an array of product objects that you defined earlier, which contains the dummy data for your grid.
 
 #### 2. **Defining the Service**
 

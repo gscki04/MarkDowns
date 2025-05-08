@@ -10,4 +10,7 @@ then apply this command
 ```sh
 npm install --save @progress/kendo-licensing
 ```  
+```sh
+npx kendo-ui-license activate
+```  
 OR use official documentation from website if this will not work.  

@@ -1,0 +1,1 @@
+`@angular/common`: The `CommonModule` provides common Angular directives like ngIf and ngFor, which are often used in templates.  

@@ -4,7 +4,7 @@ ng add @progress/kendo-angular-grid
 ```  
 
 ### 2. Add dummy data for table  
-#### `app/dummyData/data.products.ts`:  
+#### `src\app\sub\grid\DummyData\Products.ts`:  
 ```typescript
 export class Product {
     public ProductID: number = 0;
@@ -1331,7 +1331,7 @@ export const products = [
 ];
 ```  
 ### 3. create categories for data  
-`app/dummyData/data.categories.ts`  
+#### `src\app\sub\grid\DummyData\Categories.ts`:  
 ```typescript
 export class Category {
     public text: string = '';
@@ -1351,9 +1351,9 @@ export const categories: Category[] = [
 ```  
 ### 4. create a service for this  
 ```sh
-ng g s service/product.service.ts
+ng g s sub\grid\service\product
 ```  
-#### `app/service/product.service.ts`:  
+#### `src\app\sub\grid\Service\product.service.ts`:  
 ```typescript
 import {Injectable} from '@angular/core';
 import {DataResult, orderBy, process, SortDescriptor} from '@progress/kendo-data-query';
@@ -1408,7 +1408,7 @@ export const appConfig: ApplicationConfig = {
 };
 ```  
 ### 6. Finally implementing Component  
-`app.component.ts`  
+`src\app\sub\grid\grid.component.ts`  
 ```typescript
 import { Component } from '@angular/core';
 import { KENDO_DATEINPUTS } from '@progress/kendo-angular-dateinputs';
@@ -1463,7 +1463,7 @@ export class AppComponent {
     }
 }
 ```  
-#### `app.component.html`  
+#### `src\app\sub\grid\grid.component.html`  
 ```html
 <h1>{{title}}</h1>
 <hr />
