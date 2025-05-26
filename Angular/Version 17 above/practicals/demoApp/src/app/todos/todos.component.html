@@ -1,0 +1,9 @@
+@for (todo of todoItemsSignal(); track todo.id) {
+    <table style="width: 50%; border-collapse: collapse; margin-bottom: 10px;">
+        <tr>
+            <td style="width: 5%; border: 1px solid #ccc; padding: 8px; text-align: center;">{{ todo.id }}</td>
+            <td style="width: 40%; border: 1px solid #ccc; padding: 8px; text-align: left;">{{ todo.title }}</td>
+            <td style="width: 10%; border: 1px solid #ccc; padding: 8px; text-align: center;">{{ todo.completed }}</td>
+        </tr>
+    </table>
+}
